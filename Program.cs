@@ -7,7 +7,7 @@ namespace VendingMashine
     class Program
     {
 
-        public void Main(string[] args)
+        public void Main(string[] args) 
         {
             Soda fanta = new Soda("Yellow", "Soda", 9);
             Soda cocca = new Soda("black", "Caffeine", 10);
