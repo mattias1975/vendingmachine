@@ -1,7 +1,7 @@
 ﻿namespace VendingMashine
 {
    
-       class Chocolate
+       class Chocolate //: Product
     {
         protected string name;
         protected string taste;

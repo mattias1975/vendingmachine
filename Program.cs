@@ -21,8 +21,12 @@ namespace VendingMashine
             Chocolate Snickers = new Chocolate("medium dark", "OK", 12);
             Chocolate twix = new Chocolate("dubble", "taste Good", 11);
 
-           
+            //List<Product> product = new List<Product>
+            //{
+            //    fanta,cocca,rassberysoda
+            //};
         }
+
 
     }
 
