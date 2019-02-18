@@ -1,24 +1,21 @@
-﻿namespace VendingMashine
+﻿using VendingMachine;
+
+namespace VendingMashine
 {
-   
-       class Chocolate //: Product
+    class choclate: Product
     {
-        protected string name;
-        protected string taste;
-        protected int quanity;
-
-        public Chocolate(string name, string taste, int quanity)
+        protected string color;
+        protected double size;
+        public choclate(string name, int price, string color, int size) : base(name, price)
         {
+            this.color = color;
 
-
-            this.name = name;
-            this.taste = taste;
-            
-            this.quanity = quanity;
-            
+            this.size = size;
 
         }
-        
-    }
 
+
+    }
 }
+
+
