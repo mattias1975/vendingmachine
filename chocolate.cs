@@ -11,6 +11,7 @@ namespace VendingMashine
             this.color = color;
 
             this.size = size;
+          
 
         }
 
