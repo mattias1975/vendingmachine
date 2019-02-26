@@ -6,11 +6,11 @@ namespace VendingMashine
 {
 
 
-   class Soda
+    class Soda
     {
-        protected string name;
-        protected string color;
-        protected double size;
+        protected string name { get; set; }
+         protected string color { get; set; }
+        protected double size { get; set; }
         public Soda(string name, string color, int size)
         {
             this.name = name;
@@ -18,11 +18,14 @@ namespace VendingMashine
             this.color = color;
 
             this.size = size;
-            
-}
+            return ;
+        }
     }
-
 }
+
+
+
+
 
 
 
