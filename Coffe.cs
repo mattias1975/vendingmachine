@@ -1,22 +1,16 @@
-﻿namespace VendingMashine
+﻿using VendingMachine;
+
+namespace VendingMashine
 {
-    class Coffe
+    class Coffe : Product
     {
-        protected string name;
-        protected int strengthLevel;
-        protected int quanity;
-      
-
-        public Coffe(string name, int strengthLevel, int quanity)
+        protected string color;
+        protected double size;
+        public Coffe(string name, int price, string color, int size) : base(name, price)
         {
+            this.color = color;
 
-
-            this.name = name;
-
-            this.strengthLevel = strengthLevel;
-
-            this.quanity = quanity;
-
+            this.size = size;
 
         }
 

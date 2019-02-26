@@ -1,29 +1,23 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
+using VendingMachine;
 
 namespace VendingMashine
 {
-
-
-    class Soda
+    class Soda : Product
     {
-        protected string name { get; set; }
-         protected string color { get; set; }
-        protected double size { get; set; }
-        public Soda(string name, string color, int size)
+        protected string color;
+        protected double size;
+        public Soda(string name, int price, string color, int size) : base(name, price)
         {
-            this.name = name;
-
             this.color = color;
 
             this.size = size;
-            return ;
+
         }
     }
 }
-
-
 
 
 
