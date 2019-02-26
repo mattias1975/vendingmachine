@@ -9,6 +9,7 @@ namespace VendingMashine
 
         public static void Main(string[] args)
         {
+
             string money;
 
             Soda fanta = new Soda("Fanta price 11 ", 11, "Yellow", 9);
