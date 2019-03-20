@@ -22,7 +22,7 @@ namespace VendingMachine
        
         public override string ToString()
         {
-            return Id + ": " + Name;//returnerar id och name till en string
+            return Id + ": " + Name + ":"+Price;//returnerar id. namn och pris till en string
        
         }
         
